@@ -1,0 +1,45 @@
+{
+  "name": "textr-french",
+  "version": "1.0.0",
+  "author": "Sébastien Castiel <sebastien@castiel.me>",
+  "repository": "git@github.com:scastiel/textr-french.git",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest src",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "textr"
+  ],
+  "engines": {
+    "node": ">=6.14"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.4.2",
+    "prettier": "^1.14.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:prettier/recommended"
+    ],
+    "env": {
+      "es6": true,
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
