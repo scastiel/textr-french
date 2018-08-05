@@ -1,0 +1,1 @@
+**textr-french** is a plugin for the [textr](https://github.com/A/textr) framework. It transforms a string by fixing common typographic mistakes in French concerning unbreakable spaces: every colon, semicolon, exclamation and interrogation mark should be preceded by an _narror no-break space_.
